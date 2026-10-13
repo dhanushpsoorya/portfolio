@@ -68,6 +68,11 @@ resume.pdf           # Downloadable resume
 docs/QA-REPORT.md    # QA audit findings and fix status
 ```
 
+#GitDiagram
+[![Architecture diagram of dhanushpsoorya/portfolio](https://gitdiagram.com/dhanushpsoorya/portfolio/diagram.png)](https://gitdiagram.com/dhanushpsoorya/portfolio?utm_source=readme&utm_medium=picture)
+
+[![Architecture diagram](https://gitdiagram.com/diagram-badge.svg)](https://gitdiagram.com/dhanushpsoorya/portfolio?utm_source=readme&utm_medium=badge)
+
 ## QA
 
 Full audit and remediation notes: [docs/QA-REPORT.md](docs/QA-REPORT.md).
