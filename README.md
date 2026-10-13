@@ -69,6 +69,8 @@ docs/QA-REPORT.md    # QA audit findings and fix status
 ```
 
 #GitDiagram
+<img width="10553" height="5103" alt="diagram" src="https://github.com/user-attachments/assets/4f116d34-6f46-4120-ad8b-7110faafc0e5" />
+
 [![Architecture diagram of dhanushpsoorya/portfolio](https://gitdiagram.com/dhanushpsoorya/portfolio/diagram.png)](https://gitdiagram.com/dhanushpsoorya/portfolio?utm_source=readme&utm_medium=picture)
 
 [![Architecture diagram](https://gitdiagram.com/diagram-badge.svg)](https://gitdiagram.com/dhanushpsoorya/portfolio?utm_source=readme&utm_medium=badge)
