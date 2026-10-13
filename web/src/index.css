@@ -1,0 +1,6 @@
+@import "tailwindcss/theme.css";
+@import "tailwindcss/utilities.css";
+
+.portrait-card img {
+  transform: none;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Dhanush P. Soorya",
+  "short_name": "Dhanush",
+  "description": "Profile and projects of Dhanush P. Soorya, B.Tech CSE at Amity University Bengaluru.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#171c1c",
+  "theme_color": "#171c1c",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

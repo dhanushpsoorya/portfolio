@@ -1,0 +1,57 @@
+# Dependencies & build
+web/node_modules/
+web/dist/
+**/node_modules/
+**/dist/
+
+# Secrets & local tooling
+.env
+.env.*
+.wrangler/
+**/xdg.config/
+**/.wrangler/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.cursor/
+*.log
+
+# Large / unused dumps (not part of the live site)
+assets/dhanushprofiles.zip
+assets/*.mp4
+assets/VID-*.mp4
+assets/_css_theme.py
+# Photos not used by the live site
+assets/IMG-20240813-WA0048.jpg
+assets/IMG-20240813-WA0062.jpg
+assets/IMG-20240813-WA0104.jpg
+assets/IMG-20240813-WA0106.jpg
+assets/IMG-20240914-WA0002.jpg
+assets/IMG-20240914-WA0004.jpg
+assets/IMG-20240915-WA0001.jpg
+assets/IMG-20240915-WA0045.jpg
+assets/IMG-20240915-WA0060.jpg
+assets/IMG-20240915-WA0062.jpg
+assets/IMG-20260729-WA0031.jpg
+assets/IMG-20260729-WA0036.jpg
+assets/IMG-20260729-WA0061.jpg
+assets/IMG-20260729-WA0062(1).jpg
+assets/IMG-20260729-WA0063.jpg
+assets/IMG-20260729-WA0064.jpg
+assets/IMG-20260729-WA0070.jpg
+assets/IMG-20261013-WA0031.jpg
+
+
+# Local QA / temp screenshots
+web/_qa/
+web/_qa*.png
+web/**/_*.png
+images/_*.png
+**/_page-check.png
+**/_menu-open.png
+**/_dock*.png
+**/_seam.png
+**/_fade.png
+web/scripts/qa-audit.mjs
+web/scripts/check-dock.mjs

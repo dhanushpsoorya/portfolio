@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects · Dhanush P. Soorya</title>
+  <meta name="description" content="Four software projects by Dhanush P. Soorya: unemployment analysis, a resume builder, hospital booking, and a PDF to Excel converter.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <a class="skip" href="#list">Skip to projects</a>
+  <header class="nav">
+    <div class="navbar">
+      <a class="wordmark" href="index.html">Dhanush</a>
+      <nav>
+        <a href="index.html">Profile</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="index.html#facts">Facts</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <div class="resume-menu">
+        <a class="pill" href="resume.html" aria-haspopup="true">Resume<svg class="caret" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <div class="resume-pop">
+          <a href="resume.html">View</a>
+          <a href="resume.pdf" download="Dhanush-P-Soorya-Resume.pdf">Download PDF</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="projects-page" id="list">
+    <header class="page-intro">
+      <p class="kicker line-in">Selected work</p>
+      <h1 class="line-in">Four <em>separate</em> pieces.</h1>
+      <p class="line-in">Each one is a small tool with a clear result. The screens below are views of those tools.</p>
+    </header>
+
+    <article id="unemployment" class="project reveal">
+      <figure>
+        <img src="images/unemployment-cover.png" alt="Charts of unemployment over time, by gender, age group, and country.">
+        <span class="glare" aria-hidden="true"></span>
+      </figure>
+      <div>
+        <p class="num">01</p>
+        <h2>Global unemployment trends</h2>
+        <ul class="pills">
+          <li>Python</li><li>Pandas</li><li>NumPy</li><li>Matplotlib</li><li>Seaborn</li>
+        </ul>
+        <p>A data study of a real-world unemployment dataset. I cleaned the records and transformed them from wide to long format with Pandas and NumPy.</p>
+        <ul class="detail">
+          <li>Ran statistical summaries on the cleaned table.</li>
+          <li>Made more than ten charts of patterns by country, gender, age group, and time.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article id="resume-builder" class="project flip reveal">
+      <figure>
+        <img src="images/resume-cover.png" alt="Resume Builder window with a details form and a resume preview.">
+        <span class="glare" aria-hidden="true"></span>
+      </figure>
+      <div>
+        <p class="num">02</p>
+        <h2>Resume builder</h2>
+        <ul class="pills">
+          <li>Python</li><li>File handling</li><li>Graphical interface</li>
+        </ul>
+        <p>A desktop application that turns structured user input into a formatted resume.</p>
+        <ul class="detail">
+          <li>Collected details through a simple graphical interface.</li>
+          <li>Handled formatting and export with Python file handling.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article id="hospital" class="project reveal">
+      <figure>
+        <img src="images/hospital-cover.png" alt="Our New Hospital page with navigation and the appointment form.">
+        <span class="glare" aria-hidden="true"></span>
+      </figure>
+      <div>
+        <p class="num">03</p>
+        <h2>Hospital appointment booking</h2>
+        <ul class="pills">
+          <li>Flask</li><li>MySQL</li><li>HTML</li>
+        </ul>
+        <p>A Flask site for a hospital: home, about, services, registration, login, and booking.</p>
+        <ul class="detail">
+          <li>The appointment form takes a name, a doctor, and a date.</li>
+          <li>Users and appointments are stored in MySQL.</li>
+        </ul>
+        <p><a class="text-link" href="https://github.com/dhanushpsoorya/hospital-booking-project">View on GitHub</a></p>
+      </div>
+    </article>
+
+    <article id="pdf-excel" class="project flip reveal">
+      <figure>
+        <img src="images/pdf-cover.png" alt="PDF to Excel screen with a file drop area, a cleaned table, and a download button.">
+        <span class="glare" aria-hidden="true"></span>
+      </figure>
+      <div>
+        <p class="num">04</p>
+        <h2>PDF to Excel converter</h2>
+        <ul class="pills">
+          <li>Python</li><li>pdfplumber</li><li>Pandas</li><li>Streamlit</li>
+        </ul>
+        <p>A web tool that extracts structured tables from PDF files and writes them to Excel.</p>
+        <ul class="detail">
+          <li>Pandas fixes column alignment, removes duplicate rows, and formats numbers.</li>
+          <li>Streamlit provides drag-and-drop upload and an immediate download.</li>
+        </ul>
+      </div>
+    </article>
+  </main>
+
+  <footer class="reveal">
+    <div class="footer-top">
+      <p class="footer-line">Back to the profile.</p>
+      <a class="pill" href="index.html">Profile</a>
+    </div>
+    <div class="footer-grid">
+      <div>
+        <p class="label">Projects</p>
+        <a href="#unemployment">Unemployment trends</a>
+        <a href="#resume-builder">Resume builder</a>
+        <a href="#hospital">Hospital booking</a>
+        <a href="#pdf-excel">PDF to Excel</a>
+      </div>
+      <div>
+        <p class="label">Contact</p>
+        <a href="mailto:dhanush.soorya@s.amity.edu">dhanush.soorya@s.amity.edu</a>
+        <a href="tel:+919880124105">+91 9880124105</a>
+        <a href="https://github.com/dhanushpsoorya">GitHub</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/motion.js"></script>
+</body>
+</html>

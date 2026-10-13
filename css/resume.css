@@ -1,0 +1,142 @@
+@page {
+  size: letter;
+  margin: 0.7in;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #000;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 11pt;
+  line-height: 1.18;
+}
+
+.toolbar {
+  max-width: 8.5in;
+  margin: 20px auto 0;
+  padding: 0 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  font-family: Inter, "Segoe UI", sans-serif;
+  font-size: 13px;
+}
+
+.toolbar a, .toolbar button {
+  font: inherit;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #000;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 0;
+  padding: 8px 12px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.toolbar a:hover, .toolbar button:hover {
+  background: #000;
+  color: #fff;
+}
+
+.toolbar span { display: flex; gap: 8px; }
+
+.page {
+  width: 100%;
+  max-width: 8.5in;
+  min-height: 11in;
+  margin: 12px auto 32px;
+  background: #fff;
+  color: #000;
+  padding: clamp(1rem, 4vw, 0.7in);
+  overflow-wrap: anywhere;
+}
+
+h1 {
+  font-size: 16pt;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 3px;
+  letter-spacing: 0.4px;
+}
+
+.contact {
+  text-align: center;
+  font-size: 10.5pt;
+  margin: 0;
+}
+
+.page a { color: #000; text-decoration: none; }
+
+.section {
+  font-size: 11pt;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #000;
+  margin: 8px 0 3px;
+  padding-bottom: 1px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.row strong { font-weight: 700; }
+
+.sub {
+  margin: 0 0 2px;
+}
+
+ul {
+  margin: 1px 0 4px 1.15em;
+  padding: 0;
+}
+
+li { margin: 0 0 1px; }
+
+.skills p { margin: 0 0 1px; }
+
+@media (max-width: 700px) {
+  .toolbar {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .toolbar a,
+  .toolbar button {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .page { min-height: 0; }
+
+  .row {
+    flex-direction: column;
+    gap: 2px;
+  }
+}
+
+@media print {
+  html, body { background: #fff; color: #000; }
+  .toolbar { display: none; }
+  .page {
+    width: auto;
+    max-width: none;
+    min-height: auto;
+    margin: 0;
+    padding: 0;
+  }
+}
